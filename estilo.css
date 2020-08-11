@@ -198,19 +198,16 @@ footer{
   -webkit-user-select: none;
   user-select: none;
 }
-
 #lista a
 {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
 }
-
 #lista a:hover
 {
   color: #FF6347;
 }
-
 #lista input
 {
   display: block;
@@ -224,7 +221,6 @@ footer{
   z-index: 2; 
   -webkit-touch-callout: none;
 }
-
 #lista span
 {
   display: block;
@@ -239,35 +235,29 @@ footer{
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
-
 #lista span:first-child
 {
   transform-origin: 0% 0%;
 }
-
 #lista span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
-
 #lista input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
-
 #lista input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
-
 #lista input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
-
 #menus{
   position: absolute;
   width: 300px;
@@ -281,7 +271,6 @@ footer{
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #menus li
 {
   padding: 10px 0;
